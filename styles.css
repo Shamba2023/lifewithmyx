@@ -58,6 +58,7 @@ body::before {
   max-width: 90vw;
   margin: auto;
   height: 30vh;
+  padding: 10%;
 }
 
 /* Image Grid */
@@ -266,5 +267,6 @@ div {
   .framed-img { width: 90vw; }
   .round-frame { width: 20vw; height: 20vw; }
 }
+
 
 
