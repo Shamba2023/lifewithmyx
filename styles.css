@@ -110,18 +110,18 @@ border: 1px solid #fff;
 /* Grid ends */
 .photo {
     position: absolute;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: .4rem;
+    box-shadow: 0 .2rem .6rem rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     border: 1px solid #fff;
     /* White frame */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 .2rem .6rem rgba(0, 0, 0, 0.2);
     /* Soft shadow */
-    padding: 4px;
+    padding: .1rem;
     /* Space between image and frame */
     background-color: #fff;
     /* Frame background */
-    border-radius: 6px;
+    border-radius: .2rem;
     /* Optional: rounded corners */
 }
 
@@ -134,9 +134,9 @@ border: 1px solid #fff;
 
 /* Positioning each photo */
 .photo-1 {
-    top: 20px;
-    left: 20px;
-    width: 300px;
+    top: .9em;
+    left: .9em;
+    width: 1.5em;
     z-index: 1;
 }
 
@@ -420,4 +420,5 @@ div {
     width: 90vw;
   }
 }
+
 
