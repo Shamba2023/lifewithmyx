@@ -1,55 +1,49 @@
-/* Basic styling for the entire page */
+/* Base styles */
 body {
-    font-family: 'Montserrat', sans-serif;
-    /* A clean, readable font */
-    margin: 0 5vw;
-    /* Remove default body margin */
-    padding: 0 3vw;
-    /* Remove default body padding */
-    background-color: #f6f1e9;
-    /* Light background for content */
-    color: #333;
-    /* Dark text for readability */
-    line-height: 1.6;
-    /* Improve readability of text */
-    text-align: center;
-    justify-content: center;
-
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 5vw;
+  padding: 0 3vw;
+  background-color: #f6f1e9;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+  justify-content: center;
 }
 
 body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('https://images.pexels.com/photos/1843717/pexels-photo-1843717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    background-repeat: repeat;
-    background-size: auto;
-    opacity: 0.2;
-    /* Adjust transparency here */
-    z-index: -1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/1843717/pexels-photo-1843717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-repeat: repeat;
+  background-size: auto;
+  opacity: 0.2;
+  z-index: -1;
 }
 
-/* Nav bar */
+/* Navbar */
 .topnav {
   overflow: hidden;
   background-color: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .topnav a {
-  float: none;
   color: #000;
   text-align: center;
-  padding: 0.8rem 0.9rem;
+  padding: 0.875rem 1rem;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .topnav a:hover {
   background-color: inherit;
-  color:purple;
+  color: purple;
 }
 
 .topnav a.active {
@@ -57,368 +51,218 @@ body::before {
   color: white;
 }
 
-/*  */
-
-
-/* collage css starts here */
+/* Collage */
 .collage {
-    position: relative;
-    width: 100%;
-    max-width: 90vw;
-    margin: 0 auto;
-    height: 60vw;
-    /* Adjust based on your layout */
+  position: relative;
+  width: 100%;
+  max-width: 90vw;
+  margin: 0 auto;
+  height: 60vh;
 }
 
-/* Grid start */
-
+/* Image Grid */
 .image-container {
   position: relative;
-padding: 2% 10%;
+  padding: 2% 5%;
 }
+
 .image-container img {
   display: inline-block;
-   width:  20vw;
-    height: auto;
-    object-fit: cover;
-margin: 0.5em;
-    padding: 0.5em;
-border: 1px solid #fff;
-    /* White frame */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    /* Soft shadow */
-    background-color: #fff;
-    /* Frame background */
-    border-radius: 6px;
-    /* Optional: rounded corners */
+  width: 20vw;
+  height: auto;
+  object-fit: cover;
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 1px solid #fff;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 6px;
 }
+
 .image-container .overlay {
   position: absolute;
   bottom: 0;
   background: rgba(0,0,0,0.6);
   color: white;
   width: 100%;
-  padding: 10px;
+  padding: 0.625rem;
   opacity: 0;
   transition: opacity 0.3s ease;
 }
+
 .image-container:hover .overlay {
   opacity: 1;
 }
 
-
-/* Grid ends */
+/* Photo positioning */
 .photo {
-    position: absolute;
-    border-radius: .4rem;
-    box-shadow: 0 .2rem .6rem rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    border: 1px solid #fff;
-    /* White frame */
-    box-shadow: 0 .2rem .6rem rgba(0, 0, 0, 0.2);
-    /* Soft shadow */
-    padding: .1rem;
-    /* Space between image and frame */
-    background-color: #fff;
-    /* Frame background */
-    border-radius: .2rem;
-    /* Optional: rounded corners */
+  position: absolute;
+  border-radius: 8px;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.2);
+  border: 1px solid #fff;
+  padding: 0.25rem;
+  background-color: #fff;
+  border-radius: 6px;
 }
 
 .photo img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: inherit;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: inherit;
 }
 
-/* Positioning each photo */
-.photo-1 {
-    top: .9em;
-    left: .9em;
-    width: 1.5em;
-    z-index: 1;
-}
+/* Individual photo positions */
+.photo-1 { top: 2vh; left: 2vw; width: 25vw; z-index: 1; }
+.photo-2 { top: 8vh; left: 20vw; width: 20vw; z-index: 2; }
+photo-3 { top: 5vh; left: 45vw; width: 25vw; aspect-ratio: 3/4; z-index: 3; }
+.photo-4 { top: 25vh; left: 5vw; width: 22vw; z-index: 4; }
+.photo-5 { top: 25vh; left: 35vw; width: 20vw; z-index: 5; }
+.photo-6 { top: 30vh; left: 28vw; width: 15vw; aspect-ratio: 3/4; z-index: 6; }
 
-.photo-2 {
-    top: 80px;
-    left: 250px;
-    width: 250px;
-    z-index: 2;
-}
+.tilt-left { transform: rotate(-5deg); }
+.tilt-right { transform: rotate(5deg); }
+.tilt-up { transform: rotate(-2deg); }
+.tilt-down { transform: rotate(2deg); }
 
-.photo-3 {
-    top: 50px;
-    left: 550px;
-    width: 300px;
-    aspect-ratio: 3/4;
-    z-index: 3;
-}
-
-.photo-4 {
-    top: 250px;
-    left: 60px;
-    width: 280px;
-    z-index: 4;
-}
-
-.photo-5 {
-    top: 250px;
-    left: 380px;
-    width: 250px;
-    z-index: 5;
-}
-
-.photo-6 {
-    top: 300px;
-    left: 300px;
-    width: 150px;
-    aspect-ratio: 3/4;
-    z-index: 6;
-}
-
-.tilt-left {
-    transform: rotate(-5deg);
-}
-
-.tilt-right {
-    transform: rotate(5deg);
-}
-
-.tilt-up {
-    transform: rotate(-2deg);
-}
-
-.tilt-down {
-    transform: rotate(2deg);
-}
-
-
-/* Collage css ends here */
-
-/* image grid starts here*/
-
+/* Masonry Row */
 .masonry-row {
-    display: inline-flex;
-    flex-direction: row;
-    gap: 1em;
-    padding: 1.25em;
-    scroll-snap-type: x mandatory;
-    overflow-x: auto;
-    max-width: 90vw;
-    /* or a fixed width like 1200px */
-    box-sizing: border-box;
-    margin: 1.25em auto;
-    align-self: center;
+  display: inline-flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 1.25rem;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+  max-width: 90vw;
+  box-sizing: border-box;
+  margin: 1.25rem auto;
+  align-self: center;
 }
 
 .masonry-row img {
-    height: 30vh;
-    /* or use varying heights for a true masonry feel */
-    object-fit: cover;
-    border-radius: 8px;
-    scroll-snap-align: start;
-    flex-shrink: 0;
-    transition: transform 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-    border: 3px solid #fff;
-    /* White frame */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    /* Soft shadow */
-    padding: 0.5em;
-    /* Space between image and frame */
-    background-color: #fff;
-    /* Frame background */
-    border-radius: 6px;
-    /* Optional: rounded corners */
+  height: 30vh;
+  object-fit: cover;
+  border-radius: 8px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+  border: 0.2rem solid #fff;
+  padding: 0.25rem;
+  background-color: #fff;
+  border-radius: 6px;
 }
 
 .masonry-row img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-
-
-/* image grid ends here */
-
-/* Paragraph styling */
+/* Typography */
 p {
-    text-align: center;
-    margin: 1em 4em 3em;
-    /* Space below paragraphs */
-    font-size: 1em;
-    /* Default paragraph font size */
-
+  text-align: center;
+  margin: 1em 4vw 3em;
+  font-size: 1rem;
 }
 
-/* Header styling (h1 to h6) */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Montserrat", sans-serif;
-    /* A more stylistic font for headers */
-    color: #222;
-    /* Slightly darker header color */
-    margin-top: .5em;
-    /* Space above headers */
-    margin-bottom: 0.2em;
-    /* Space below headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  color: #222;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
 }
 
-h1 {
-    font-size: 4rem;
-    font-weight: 500;
-
-}
-
-
-h2 {
-    font-size: 1rem;
-    font-weight: 300;
-}
-
-h3 {
-    font-size: 1.75rem;
-    font-weight: 400;
-}
-
-h4 {
-    font-size: 1.5rem;
-    font-weight: 100;
-}
-
-h5 {
-    font-size: 1.25rem;
-}
-
-h6 {
-    font-size: 1rem;
-}
+h1 { font-size: 4rem; font-weight: 500; }
+h2 { font-size: 1rem; font-weight: 300; }
+h3 { font-size: 1.75rem; font-weight: 400; }
+h4 { font-size: 1.5rem; font-weight: 100; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
 
 hr {
-    height: 3px;
-    /* Set the thickness of the line */
-    width: 25vw;
-    /* Sets a fixed width of 300 pixels */
-    background-color: lightgrey;
-    /* Set the desired color */
-    border: none;
-    /* Remove the default border to avoid double lines */
+  height: 0.2rem;
+  width: 25vw;
+  background-color: lightgrey;
+  border: none;
 }
 
-/* Image styling */
+/* Image Styling */
 img {
-    max-width: 100%;
-    /* Ensure images are responsive and don't overflow their containers */
-    height: auto;
-    /* Maintain aspect ratio */
-    width: auto;
-    display: inline-block;
-    /* Remove extra space below images */
-    margin: 0 0;
-    /* Center images within their parent container */
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  display: inline-block;
+  margin: 0;
 }
 
 .framed-img {
-    margin: auto;
-    border: 8px solid #fff;
-    /* White frame */
-    width: 80vw;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    /* Soft shadow */
-    padding: 0.5em;
-    /* Space between image and frame */
-    background-color: #fff;
-    /* Frame background */
-    border-radius: 6px;
-    /* Optional: rounded corners */
+  margin: auto;
+  border: 0.5rem solid #fff;
+  width: 80vw;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.2);
+  padding: 0.25rem;
+  background-color: #fff;
+  border-radius: 6px;
 }
 
 .round-frame {
-    width: 10vw;
-    /* Adjust size as needed */
-    height: 10vw;
-    border-radius: 50%;
-    /* Makes the image perfectly circular */
-    overflow: hidden;
-    /* Ensures the image stays within the circle */
-    border: 3px solid #fff;
-    /* White border frame */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    /* Soft shadow for depth */
-    display: inline-block;
-    background-color: #fff;
-    /* Optional: adds contrast behind image */
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 0.2rem solid #fff;
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  background-color: #fff;
 }
 
 .round-frame img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /* Ensures the image fills the frame without distortion */
-    display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
-
-/* Div styling - a general container */
+/* Containers */
 div {
-    box-sizing: border-box;
-    /* Include padding and border in the element's total width and height */
+  box-sizing: border-box;
 }
 
-/* Example of a content wrapper div */
 .container {
-    max-width: 1200px;
-    /* Set a maximum width for content */
-    margin: 20px auto;
-    /* Center the container on the page with some vertical margin */
-    padding: 20px;
-    /* Add padding inside the container */
-    background-color: #fff;
-    /* White background for content areas */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow for depth */
+  max-width: 90vw;
+  margin: 1.25rem auto;
+  padding: 1.25rem;
+  background-color: #fff;
+  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
 }
 
-
+/* Fonts */
 .montserrat-uniquifier {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .calligraffitti-regular {
-    font-family: "Calligraffitti", cursive;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Calligraffitti", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .ms-madi-regular {
-    font-family: "Ms Madi", cursive;
-    font-weight: 400;
-    font-style: normal;
-
+  font-family: "Ms Madi", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
+
+/* Media Queries */
 @media (max-width: 768px) {
-  h1 {
-    font-size: 2.5rem;
+  h1 { font-size: 2.5rem; }
+  .image-container img { width: 40vw; }
+  .photo-1, .photo-2, .photo-3, .photo-4, .photo-5, .photo-6 {
+    position: static;
+    width: 80vw;
+    margin: 1rem auto;
   }
-
-  .image-container img {
-    width: 40vw;
-  }
-
-  .masonry-row img {
-    height: 20vh;
-  }
-
-  .framed-img {
-    width: 90vw;
-  }
+  .masonry-row img { height: 20vh; }
+  .framed-img { width: 90vw; }
+  .round-frame { width: 20vw; height: 20vw; }
 }
-
-
