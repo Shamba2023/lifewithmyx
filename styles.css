@@ -1,0 +1,404 @@
+/* Basic styling for the entire page */
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* A clean, readable font */
+    margin: 0% 10%;
+    /* Remove default body margin */
+    padding: 0% 5%;
+    /* Remove default body padding */
+    background-color: #f6f1e9;
+    /* Light background for content */
+    color: #333;
+    /* Dark text for readability */
+    line-height: 1.6;
+    /* Improve readability of text */
+    text-align: center;
+    justify-content: center;
+
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.pexels.com/photos/1843717/pexels-photo-1843717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: repeat;
+    background-size: auto;
+    opacity: 0.2;
+    /* Adjust transparency here */
+    z-index: -1;
+}
+
+/* Nav bar */
+.topnav {
+  overflow: hidden;
+  background-color: inherit;
+}
+
+.topnav a {
+  float: none;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: inherit;
+  color:purple;
+}
+
+.topnav a.active {
+  background-color: #ddd;
+  color: white;
+}
+
+/*  */
+
+
+/* collage css starts here */
+.collage {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 500px;
+    /* Adjust based on your layout */
+}
+
+/* Grid start */
+
+.image-container {
+  position: relative;
+padding: 2% 10%;
+}
+.image-container img {
+  display: inline-block;
+   width:  200px;
+    height: 250px;
+    object-fit: cover;
+margin: 5px;
+    padding: 5px;
+border: 1px solid #fff;
+    /* White frame */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    /* Soft shadow */
+    background-color: #fff;
+    /* Frame background */
+    border-radius: 6px;
+    /* Optional: rounded corners */
+}
+.image-container .overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+
+/* Grid ends */
+.photo {
+    position: absolute;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 1px solid #fff;
+    /* White frame */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    /* Soft shadow */
+    padding: 4px;
+    /* Space between image and frame */
+    background-color: #fff;
+    /* Frame background */
+    border-radius: 6px;
+    /* Optional: rounded corners */
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: inherit;
+}
+
+/* Positioning each photo */
+.photo-1 {
+    top: 20px;
+    left: 20px;
+    width: 300px;
+    z-index: 1;
+}
+
+.photo-2 {
+    top: 80px;
+    left: 250px;
+    width: 250px;
+    z-index: 2;
+}
+
+.photo-3 {
+    top: 50px;
+    left: 550px;
+    width: 300px;
+    aspect-ratio: 3/4;
+    z-index: 3;
+}
+
+.photo-4 {
+    top: 250px;
+    left: 60px;
+    width: 280px;
+    z-index: 4;
+}
+
+.photo-5 {
+    top: 250px;
+    left: 380px;
+    width: 250px;
+    z-index: 5;
+}
+
+.photo-6 {
+    top: 300px;
+    left: 300px;
+    width: 150px;
+    aspect-ratio: 3/4;
+    z-index: 6;
+}
+
+.tilt-left {
+    transform: rotate(-5deg);
+}
+
+.tilt-right {
+    transform: rotate(5deg);
+}
+
+.tilt-up {
+    transform: rotate(-2deg);
+}
+
+.tilt-down {
+    transform: rotate(2deg);
+}
+
+
+/* Collage css ends here */
+
+/* image grid starts here*/
+
+.masonry-row {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 20px;
+    scroll-snap-type: x mandatory;
+    overflow-x: auto;
+    max-width: 90vw;
+    /* or a fixed width like 1200px */
+    box-sizing: border-box;
+    margin: 20px auto;
+    align-self: center;
+}
+
+.masonry-row img {
+    height: 300px;
+    /* or use varying heights for a true masonry feel */
+    object-fit: cover;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 3px solid #fff;
+    /* White frame */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    /* Soft shadow */
+    padding: 4px;
+    /* Space between image and frame */
+    background-color: #fff;
+    /* Frame background */
+    border-radius: 6px;
+    /* Optional: rounded corners */
+}
+
+.masonry-row img:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* image grid ends here */
+
+/* Paragraph styling */
+p {
+    text-align: center;
+    margin: 1em 4em 3em;
+    /* Space below paragraphs */
+    font-size: 1em;
+    /* Default paragraph font size */
+
+}
+
+/* Header styling (h1 to h6) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    /* A more stylistic font for headers */
+    color: #222;
+    /* Slightly darker header color */
+    margin-top: .5em;
+    /* Space above headers */
+    margin-bottom: 0.2em;
+    /* Space below headers */
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 500;
+
+}
+
+
+h2 {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 1.75em;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+hr {
+    height: 3px;
+    /* Set the thickness of the line */
+    width: 300px;
+    /* Sets a fixed width of 300 pixels */
+    background-color: lightgrey;
+    /* Set the desired color */
+    border: none;
+    /* Remove the default border to avoid double lines */
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    /* Ensure images are responsive and don't overflow their containers */
+    height: auto;
+    /* Maintain aspect ratio */
+    width: auto;
+    display: inline-block;
+    /* Remove extra space below images */
+    margin: 0 0;
+    /* Center images within their parent container */
+}
+
+.framed-img {
+    margin: auto;
+    border: 8px solid #fff;
+    /* White frame */
+    width: 840px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    /* Soft shadow */
+    padding: 4px;
+    /* Space between image and frame */
+    background-color: #fff;
+    /* Frame background */
+    border-radius: 6px;
+    /* Optional: rounded corners */
+}
+
+.round-frame {
+    width: 120px;
+    /* Adjust size as needed */
+    height: 120px;
+    border-radius: 50%;
+    /* Makes the image perfectly circular */
+    overflow: hidden;
+    /* Ensures the image stays within the circle */
+    border: 3px solid #fff;
+    /* White border frame */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    /* Soft shadow for depth */
+    display: inline-block;
+    background-color: #fff;
+    /* Optional: adds contrast behind image */
+}
+
+.round-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures the image fills the frame without distortion */
+    display: block;
+}
+
+
+/* Div styling - a general container */
+div {
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
+}
+
+/* Example of a content wrapper div */
+.container {
+    max-width: 1200px;
+    /* Set a maximum width for content */
+    margin: 20px auto;
+    /* Center the container on the page with some vertical margin */
+    padding: 20px;
+    /* Add padding inside the container */
+    background-color: #fff;
+    /* White background for content areas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+
+.montserrat-uniquifier {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.calligraffitti-regular {
+    font-family: "Calligraffitti", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ms-madi-regular {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
