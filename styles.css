@@ -57,7 +57,7 @@ body::before {
   width: 100%;
   max-width: 90vw;
   margin: 5%;
-  height: 30vh;
+  height: 100vh;
   padding: 10%;
 }
 
@@ -267,6 +267,7 @@ div {
   .framed-img { width: 90vw; }
   .round-frame { width: 20vw; height: 20vw; }
 }
+
 
 
 
