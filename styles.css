@@ -56,7 +56,7 @@ body::before {
   position: relative;
   width: 100%;
   max-width: 90vw;
-  margin: 0 auto;
+  margin: auto;
   height: 30vh;
 }
 
@@ -115,10 +115,10 @@ body::before {
 /* Individual photo positions */
 .photo-1 { top: 2vh; left: 2vw; width: 25vw; z-index: 1; }
 .photo-2 { top: 8vh; left: 20vw; width: 20vw; z-index: 2; }
-photo-3 { top: 5vh; left: 45vw; width: 25vw; aspect-ratio: 3/4; z-index: 3; }
+photo-3 { top: 5vh; left: 45vw; width: 25vw; z-index: 3; }
 .photo-4 { top: 25vh; left: 5vw; width: 22vw; z-index: 4; }
 .photo-5 { top: 25vh; left: 35vw; width: 20vw; z-index: 5; }
-.photo-6 { top: 30vh; left: 28vw; width: 15vw; aspect-ratio: 3/4; z-index: 6; }
+.photo-6 { top: 30vh; left: 28vw; width: 15vw; z-index: 6; }
 
 .tilt-left { transform: rotate(-5deg); }
 .tilt-right { transform: rotate(5deg); }
@@ -266,4 +266,5 @@ div {
   .framed-img { width: 90vw; }
   .round-frame { width: 20vw; height: 20vw; }
 }
+
 
