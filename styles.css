@@ -603,7 +603,7 @@ footer a {
         gap: var(--g);
         width: calc(3*var(--s) + 2*var(--g));
         aspect-ratio: 1;
-        grid-template-columns: repeat(3, 3);
+        grid-template-columns: repeat(3, auto);
 
     }
 
@@ -714,6 +714,7 @@ footer a {
     }
 
 }
+
 
 
 
