@@ -592,7 +592,7 @@ footer a {
     }
 
     .gallery {
-        --s: 10em;
+        --s: 6em;
         /* control the size */
         --g: 1em;
         /* control the gap */
@@ -714,6 +714,7 @@ footer a {
     }
 
 }
+
 
 
 
