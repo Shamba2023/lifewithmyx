@@ -651,7 +651,7 @@ footer a {
     }
 
     p {
-        font-size: 1rem;
+        font-size: 1em;
         margin-bottom: .5em;
     }
 
@@ -714,8 +714,11 @@ footer a {
         width: 20vw;
         height: 20vw;
     }
-
+footer {
+margin: auto;
 }
+}
+
 
 
 
