@@ -707,6 +707,7 @@ footer a {
 }
 
     .framed-img {
+        width: auto;
         padding: .5em;
         font-size: 0.6em;
     }
