@@ -706,7 +706,6 @@ footer a {
 }
 
     .framed-img {
-        margin: .5em;
         padding: .5em;
         font-size: 0.6em;
     }
@@ -720,6 +719,7 @@ margin: auto;
     text-align: center;
 }
 }
+
 
 
 
