@@ -706,8 +706,8 @@ footer a {
 }
 
     .framed-img {
-        padding: 1em;
-        font-size: 0.5em;
+        padding: .5em;
+        font-size: 0.25em;
     }
 
     .round-frame {
@@ -716,6 +716,7 @@ footer a {
     }
 
 }
+
 
 
 
