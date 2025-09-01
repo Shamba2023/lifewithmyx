@@ -553,7 +553,7 @@ footer a {
 
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 430px) {
     h1 {
         font-size: 2.5rem;
     }
@@ -715,6 +715,7 @@ footer a {
     }
 
 }
+
 
 
 
