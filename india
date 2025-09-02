@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ms+Madi&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="https://shamba2023.github.io/lifewithmyx/favicon.png" class="round-frame">
+    <title>Life with my X</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <!-- <a class="active" href="#home">Home</a> -->
+        <a href="https://shamba2023.github.io/lifewithmyx/index.html">Home</a>
+        <a href="https://shamba2023.github.io/lifewithmyx/switzerland">Switzerland</a>
+        <a href="https://shamba2023.github.io/lifewithmyx/london">London</a>
+    </div>
+
+    <h1 class="ms-madi-regular">
+        Life with my X</h1>
+    <img src="https://shamba2023.github.io/lifewithmyx/logo_2.jpg" alt="logo" class="round-frame">
+    <h2>What my X and I found in London </h2>
+    <br>
+     <div>
+        <h3>Timeless in Central London</h3>
+        <div class="masonry-row">
+            <img src="https://images.pexels.com/photos/33581467/pexels-photo-33581467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=350"
+                alt="Cityscape 1" class="tilt-left">
+            <img src="https://images.pexels.com/photos/33372720/pexels-photo-33372720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=350"
+                alt="Landscape 1" class="">
+            <img src="https://images.pexels.com/photos/33257242/pexels-photo-33257242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=350"
+                alt="Cityscape 2" class="tilt-right">
+            <!-- <img src="https://images.pexels.com/photos/33372735/pexels-photo-33372735.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=350"
+                alt="Landscape 2" class="tilt-right">
+            <img src="https://images.pexels.com/photos/33372720/pexels-photo-33372720.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=350"
+                alt="Cityscape 3" class="tilt-left">
+            <img src="https://images.pexels.com/photos/33159540/pexels-photo-33159540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=350"
+                alt="Landscape 3" class=""> -->
+        </div>
+
+
+
+        <p>Central London pulses with a rhythm that’s timeless —a city where history and culture
+            fuse in every frame. London’s skyline offers a dynamic cityscape. I chase
+            moments when the golden hour softens the edges of Victorian architecture, and the people around them. </p>
+        <div>
+            <div class="framed-img">
+                <img src="https://images.pexels.com/photos/33419287/pexels-photo-33419287.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Photo by Shamba Datta">
+                <p>The other side of river Thames seen from the east side. The St. Paul's Cathedral is on the left and
+                    on the extreme right you can see the famous "Walkie-Talkie" building.</p>
+
+            </div>
+            <br>
+            <div class="framed-img">
+                <img src="https://images.pexels.com/photos/33419289/pexels-photo-33419289.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Photo by Shamba Datta">
+                <p>London Eye on a beautiful sunny morning, as seen from the Westminster Bridge. London remains cloudy on many days in a year, so a sunny day means a lot to London and the people there.</p>
+
+            </div>
+            <br>
+        </div>
+        <p>Whether it’s the quiet majesty of St. Paul’s
+            Cathedral or the kinetic energy of Piccadilly Circus, each image tells a story of contrast—old and new,
+            stillness and motion. My lens seeks not just buildings, but the heartbeat of the city: the way light
+            dances across the Thames, the symmetry of shadows in hidden alleyways, and the fleeting expressions of
+            Londoners caught in the rush. This is London, not just seen—but felt.</p>
+
+        <div>
+            <div class="framed-img">
+                <img src="https://images.pexels.com/photos/33372732/pexels-photo-33372732.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Photo by Shamba Datta">
+                <p>A Central London street on a sunny Sunday morning. The golden light on the street creates the lively
+                    and
+                    energetic mood on the people.</p>
+
+            </div>
+            <br>
+            <div class="framed-img">
+                <img src="https://images.pexels.com/photos/32951977/pexels-photo-32951977.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Photo by Shamba Datta">
+                <p>The iconic London red bus that has become a symbol of the city. This red bus is plying behind the
+                    Parliament house at the Central London.</p>
+            </div>
+            <br>
+            <p> Central London is full of excitement and vibrance, particularly when it is sunny but not so hot. If you travel along the roads you will see more tourists than you see the locals. Tourists from all across the world rock the London streets all day long.</p>
+            <div class="framed-img">
+                <img src="https://images.pexels.com/photos/32951976/pexels-photo-32951976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Photo by Shamba Datta">
+                <p>The Big Ben is the biggest iconic building at Central London just across the Westminster bridge. The tower clock and the Parliament House next to it not only make this place very important, but also stand as a model of medieval Gothic architecture.</p>
+            </div>
+            <br>
+            <div class="framed-img">
+                <img src="https://images.pexels.com/photos/33372738/pexels-photo-33372738.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Photo by Shamba Datta">
+                <p>London cityscape on a warm morning. The modern architecture has a striking contrast to its medieval architecture. It is shows how dynamic the culture of the city is.</p>
+            </div>
+            <br>
+        </div>
+    </div>
+    <footer>
+        <hr>
+        <p>Author: Shamba Datta | &copy; Copyright: Shamba Datta 2025</p>
+        <p><a href="mailto:shambadatta@gmail.com">shambadatta@gmail.com</a></p>
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
