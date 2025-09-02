@@ -238,8 +238,8 @@ body::before {
     scroll-snap-align: start;
     flex-shrink: 0;
     transition: transform 0.3s ease;
-    border: 0.2rem solid #fff;
-    padding: 0.25rem;
+    border: 0.2em solid #fff;
+    padding: 0.2em;
     background-color: #fff;
     border-radius: 6px;
 }
@@ -722,6 +722,7 @@ margin: auto;
     text-align: center;
 }
 }
+
 
 
 
