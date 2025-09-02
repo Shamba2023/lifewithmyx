@@ -710,7 +710,7 @@ footer a {
     .framed-img {
         width: auto;
         padding: .5em;
-        font-size: 0.8em;
+        font-size: 0.75em;
     }
 
     .round-frame {
@@ -722,6 +722,7 @@ margin: auto;
     text-align: center;
 }
 }
+
 
 
 
