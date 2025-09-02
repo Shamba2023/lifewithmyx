@@ -16,11 +16,11 @@ body::before {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('https://images.pexels.com/photos/962312/pexels-photo-962312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    width: 80%;
+    height: 80%;
+    background-image: url('https://images.pexels.com/photos/1955134/pexels-photo-1955134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-repeat: repeat;
-    background-size: auto;
+    background-size: inherit;
     opacity: 0.2;
     z-index: -1;
 }
