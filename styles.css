@@ -218,6 +218,16 @@ body::before {
 }
 
 /* Masonry Row */
+
+.masonry-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    box-sizing: border-box;
+}
+
 .masonry-row {
     display: flex;
     flex-direction: row;
@@ -720,6 +730,7 @@ margin: auto;
     text-align: center;
 }
 }
+
 
 
 
