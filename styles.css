@@ -232,7 +232,7 @@ body::before {
 }
 
 .masonry-row img {
-    width: 30vw;
+    width: 20vw;
     object-fit: cover;
     scroll-snap-align: start;
     flex-shrink: 0;
@@ -720,6 +720,7 @@ margin: auto;
     text-align: center;
 }
 }
+
 
 
 
