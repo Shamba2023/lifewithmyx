@@ -225,7 +225,7 @@ body::before {
     padding: 1em;
     scroll-snap-type: x mandatory;
     overflow-x: auto;
-    width: auto;
+    width: 100vw;
     box-sizing: border-box;
     margin: auto;
     align-self: center;
@@ -720,6 +720,7 @@ margin: auto;
     text-align: center;
 }
 }
+
 
 
 
