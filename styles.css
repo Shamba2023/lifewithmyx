@@ -219,7 +219,7 @@ body::before {
 
 /* Masonry Row */
 .masonry-row {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     gap: .5em;
     padding: 1em;
@@ -720,6 +720,7 @@ margin: auto;
     text-align: center;
 }
 }
+
 
 
 
