@@ -685,6 +685,14 @@ footer a {
     .photo-6 {
         display: none;
     }
+.masonry-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    box-sizing: border-box;
+}
 
   .masonry-row {
     display: inline-flex;
@@ -730,6 +738,7 @@ margin: auto;
     text-align: center;
 }
 }
+
 
 
 
