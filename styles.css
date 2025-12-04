@@ -22,7 +22,7 @@ body {
     min-height: 100vh; /* Ensures the background covers the full height of the viewport */
     margin: 0 2vw;
     width: auto;
-    background-color: #f6f1e9;
+    /* background-color: #f6f1e9; */
     color: #333;
     line-height: 1.6;
     text-align: center;
@@ -757,6 +757,7 @@ margin: auto;
     text-align: center;
 }
 }
+
 
 
 
