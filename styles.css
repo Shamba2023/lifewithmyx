@@ -326,7 +326,7 @@ img {
 .framed-img {
     margin: auto;
     border: 0.5rem solid #fff;
-    width: 70vw;
+    width: 60vw;
     box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.2);
     padding: 2rem;
     background-color: #fff;
@@ -738,6 +738,7 @@ margin: auto;
     text-align: center;
 }
 }
+
 
 
 
