@@ -1,12 +1,7 @@
 /* Base styles */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: url('Life_with_my_X_Background_graphics.jpg'); /* Use a lightweight format like SVG or optimized PNG/JPG */
-    background-repeat: no-repeat; /* Prevents the image from tiling */
-    background-position: center center; /* Centers the graphic on the screen */
-    background-size: cover; /* Ensures the graphic covers the entire container */
-
-    /* 2. Add a semi-transparent overlay using a pseudo-element or gradient */
+    /* Add a semi-transparent overlay using a pseudo-element or gradient */
     /* This gradient acts as the 'semi-transparent' layer you requested */
     background-image: linear-gradient(
         to bottom right,
@@ -331,6 +326,10 @@ hr {
     width: 25vw;
     background-color: lightgrey;
     border: none;
+}
+
+p {
+    max-width: 60%;
 }
 
 /* Image Styling */
@@ -757,6 +756,7 @@ margin: auto;
     text-align: center;
 }
 }
+
 
 
 
