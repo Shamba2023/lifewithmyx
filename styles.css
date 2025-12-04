@@ -328,10 +328,6 @@ hr {
     border: none;
 }
 
-p {
-    max-width: 60%;
-}
-
 /* Image Styling */
 img {
     max-width: 100%;
@@ -756,6 +752,7 @@ margin: auto;
     text-align: center;
 }
 }
+
 
 
 
