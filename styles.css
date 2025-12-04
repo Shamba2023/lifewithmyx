@@ -1,23 +1,8 @@
 /* Base styles */
 body {
     font-family: 'Montserrat', sans-serif;
-    /* Add a semi-transparent overlay using a pseudo-element or gradient */
-    /* This gradient acts as the 'semi-transparent' layer you requested */
-    background-image: linear-gradient(
-        to bottom right,
-        rgba(255, 255, 255, 0.7), /* White with 70% opacity */
-        rgba(240, 240, 240, 0.7)  /* Light gray with 70% opacity */
-    ), url('Life_with_my_X_Background_graphics.jpg');
-    background-size: cover, cover;
-    background-position: center center, center center;
-    background-repeat: no-repeat, no-repeat;
-    
-    /* 3. Ensure content sits above the background */
-    position: relative;
-    min-height: 100vh; /* Ensures the background covers the full height of the viewport */
-    margin: 0 2vw;
-    width: auto;
-    /* background-color: #f6f1e9; */
+   
+    background-color: #f6f1e9;
     color: #333;
     line-height: 1.6;
     text-align: center;
@@ -752,6 +737,7 @@ margin: auto;
     text-align: center;
 }
 }
+
 
 
 
